@@ -7,15 +7,17 @@
 ![RadixUI](https://img.shields.io/badge/RadixUI-Toasts-purple)
 
 A **personal portfolio website** built with **ReactJS** and **Tailwind CSS**, showcasing my **projects**, **skills**, and allowing visitors to **contact me directly**.  
-Live demo: [View Portfolio](https://vercel.com/sai-chaitanya-gaddams-projects/react-js-main-portfoliowebsite/HMcFMc7JHvwwxeLQZApfCdC238rE)
+
 
 ---
 
 ## 👋 About Me
 
-Hi! I'm **Sai Chaitanya Gaddam**, a passionate **Front-End Developer** based in Sydney, Australia.  
-I love building modern, responsive, and interactive web applications using **ReactJS** and **Tailwind CSS**.  
-This portfolio reflects my work, skills, and creativity as a developer.
+Hi! I'm **Sai Chaitanya Gaddam**, a passionate **Frontend and Fullstack Developer** based in Sydney, Australia.  
+I specialize in building **modern, responsive, and interactive web applications** using **ReactJS**, **Tailwind CSS**, **Node.js**, and **Django**.  
+
+I enjoy turning ideas into functional web applications and continuously learning new technologies to improve my skills.  
+This portfolio reflects my work, creativity, and technical expertise, showcasing my projects, skills, and how I approach problem-solving in web development.
 
 ---
 
