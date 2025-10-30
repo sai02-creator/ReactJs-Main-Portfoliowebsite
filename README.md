@@ -53,24 +53,22 @@ I built this portfolio to:
 - **Deployment:** Vercel  
 
 ---
+## 🖼️ Screenshots (Static Images)
 
-## 🖼️ Demo (Animated GIFs)
+### Home
+![Home](public/images/home.png)
 
-### Home Section
-![Home Animation](public/gifs/home.gif)
+### Projects
+![Projects](public/images/projects.png)
 
-### Projects Section
-![Projects Animation](public/gifs/projects.gif)
+### Skills
+![Skills](public/images/skills.png)
 
-### Skills Section
-![Skills Animation](public/gifs/skills.gif)
-
-### Contact Section
-![Contact Animation](public/gifs/contact.gif)
+### Contact
+![Contact](public/images/contact.png)
 
 ### Footer / Scroll-to-Top
-![Footer Animation](public/gifs/footer.gif)
-
+![Footer](public/images/footer.png)
 ---
 
 ## 🚀 Live Demo
