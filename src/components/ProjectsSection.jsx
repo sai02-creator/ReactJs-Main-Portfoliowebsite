@@ -1,25 +1,25 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
     id: 1,
     title: "ChatMessaging App",
     description:
-      "A full-stack real-time chat messaging application built with React, TypeScript, Zustand, and Supabase. Users can sign up, log in, create or join chat rooms, and exchange messages in real-time. The frontend handles UI, state management, and data fetching, while the backend (Supabase) manages authentication, database storage, and real-time messaging.",
+      "A full-stack real-time chat messaging application built with React, TypeScript, Zustand, and Supabase.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://chat-messaging-otvvtctyn-sai-chaitanya-gaddams-projects.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/Chat-Messaging-App",
   },
   {
     id: 2,
     title: "React Quiz App",
     description:
-      "A simple interactive quiz application built with React. Users can answer multiple-choice questions, navigate between them, and view their score at the end.",
+      "A simple interactive quiz application built with React,JavaScript and CSS.",
     image: "/projects/project2.png",
     tags: ["React", "JavaScript", "CSS", "HTML"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://quiz-hpga8bxiq-sai-chaitanya-gaddams-projects.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/Quiz-App-Reactjs",
   },
   
 ];
@@ -76,14 +76,14 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink />
+                      <ExternalLink size={20}/>
                     </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github />
+                      <Github size={20}/>
                     </a>
                   </div>
                 </div>
@@ -91,6 +91,15 @@ export const ProjectsSection = () => {
             </div>
           ))}
         </div>
+
+        <div className="text-center mt-12">
+          <a className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank" href="https://github.com/sai02-creator">
+            Check My Github <ArrowRight size={16} />
+          </a>
+
+        </div>
+
+
       </div>
     </section>
   );
