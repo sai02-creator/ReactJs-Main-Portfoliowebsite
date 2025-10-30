@@ -1,16 +1,65 @@
-# React + Vite
+# Sai Chaitanya Gaddam – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.3-blue?logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-4.3-purple?logo=vite)
+![Lucide](https://img.shields.io/badge/Lucide-Icons-gray)
+![RadixUI](https://img.shields.io/badge/RadixUI-Toasts-purple)
 
-Currently, two official plugins are available:
+A **personal portfolio website** built with **ReactJS** and **Tailwind CSS**, showcasing my **projects**, **skills**, and allowing visitors to **contact me**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live demo: [View Portfolio](https://vercel.com/sai-chaitanya-gaddams-projects/react-js-main-portfoliowebsite/HMcFMc7JHvwwxeLQZApfCdC238rE)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- Fully responsive design for all devices.  
+- Projects section with detailed descriptions and live links.  
+- Skills section with animated proficiency bars.  
+- Contact form with **toast notifications** for submissions.  
+- Smooth scrolling and scroll-to-top button.  
+- Modern UI with hover effects and section animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** ReactJS, Vite  
+- **Styling:** Tailwind CSS  
+- **Icons:** Lucide React  
+- **Notifications:** Radix UI Toast + Custom Hook  
+- **Routing:** React Router DOM  
+- **State Management:** React Hooks  
+- **Deployment:** Vercel  
+
+---
+
+## 🖼️ Demo
+
+### Home Section
+![Home Animation](public/gifs/home.gif)
+Hero section with smooth fade-in animations and background effects.
+
+### Projects Section
+![Projects Animation](public/gifs/projects.gif)
+Showcases projects with descriptions, tech stack, and live links.
+
+### Skills Section
+![Skills Animation](public/gifs/skills.gif)
+Animated skill bars indicating proficiency in frontend and backend technologies.
+
+### Contact Section
+![Contact Animation](public/gifs/contact.gif)
+Contact form with real-time toast notifications upon message submission.
+
+### Footer / Scroll-to-Top
+![Footer Animation](public/gifs/footer.gif)
+Smooth scroll-to-top button with hover effects.
+
+---
+
+## 🚀 Live Demo
+
+[![View Live Portfolio](https://img.shields.io/badge/Live%20Demo-Portfolio-blue?logo=vercel&logoColor=white)](https://vercel.com/sai-chaitanya-gaddams-projects/react-js-main-portfoliowebsite/HMcFMc7JHvwwxeLQZApfCdC238rE)
+
