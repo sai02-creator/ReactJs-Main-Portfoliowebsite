@@ -70,10 +70,8 @@ I built this portfolio to:
 ### Footer / Scroll-to-Top
 ![Footer](public/images/footer.png)
 ---
-
 ## 🚀 Live Demo
 
-[![View Live Portfolio](https://img.shields.io/badge/Live%20Demo-Portfolio-blue?logo=vercel&logoColor=white)](https://vercel.com/sai-chaitanya-gaddams-projects/react-js-main-portfoliowebsite/HMcFMc7JHvwwxeLQZApfCdC238rE)
+[![View Live Portfolio](https://img.shields.io/badge/Live%20Demo-Portfolio-blue?logo=vercel&logoColor=white)](https://react-js-main-portfoliowebsite-n2zfl7ebb.vercel.app/)
 
----
 
