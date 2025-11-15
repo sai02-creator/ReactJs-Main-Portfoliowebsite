@@ -21,7 +21,16 @@ const projects = [
     demoUrl: "https://quiz-hpga8bxiq-sai-chaitanya-gaddams-projects.vercel.app/",
     githubUrl: "https://github.com/sai02-creator/Quiz-App-Reactjs",
   },
-  
+  {
+    id: 2,
+    title: "React Quiz App",
+    description:
+      "A professional and high-performance React website built with Tailwind CSS and Lucide React, featuring smooth animations, interactive components, and elegant design for a modern web experience.",
+    image: "/projects/project3.png",
+    tags: ["React", "JavaScript", "TailwindCss", "HTML"],
+    demoUrl: "https://react-js-modern-ui-ux-site.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/ReactJs-Modern-UI-UX-Site?tab=readme-ov-file",
+  },
 ];
 
 export const ProjectsSection = () => {
