@@ -22,8 +22,8 @@ const projects = [
     githubUrl: "https://github.com/sai02-creator/Quiz-App-Reactjs",
   },
   {
-    id: 2,
-    title: "React Quiz App",
+    id: 3,
+    title: "Modern UI-UX React Website",
     description:
       "A professional and high-performance React website built with Tailwind CSS and Lucide React, featuring smooth animations, interactive components, and elegant design for a modern web experience.",
     image: "/projects/project3.png",
