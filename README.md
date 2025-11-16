@@ -72,6 +72,6 @@ I built this portfolio to:
 ---
 ## 🚀 Live Demo
 
-[![View Live Portfolio](https://img.shields.io/badge/Live%20Demo-Portfolio-blue?logo=vercel&logoColor=white)](https://react-js-main-portfoliowebsite-n2zfl7ebb.vercel.app/)
+[![View Live Portfolio](https://img.shields.io/badge/Live%20Demo-Portfolio-blue?logo=vercel&logoColor=white)](https://react-js-main-portfoliowebsite.vercel.app/#hero)
 
 
