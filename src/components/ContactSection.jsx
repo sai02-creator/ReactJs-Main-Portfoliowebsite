@@ -106,7 +106,7 @@ export const ContactSection = () => {
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-2"> Your Email </label>
-                <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="josh@gmai.com" />
+                <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" placeholder="josh@gmail.com" />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2"> Your message </label>
