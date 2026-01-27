@@ -38,8 +38,8 @@ const projects = [
       "Think of Calvero as your personal scheduling assistant — but one that never sleeps and never double-books you. It handles availability, bookings, and calendar sync automatically so you can focus on the meeting, not the logistics.",
     image: "/projects/project4.png",
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "Clerk", "Sanity"],
-    demoUrl: "https://calvero-scheduling-app.vercel.app/",
-    githubUrl: "https://github.com/sai02-creator/Calvero-Scheduling-App",
+    demoUrl: "https://calvero-scheduling-saas.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/calvero-scheduling-saas",
   },
 ];
 
