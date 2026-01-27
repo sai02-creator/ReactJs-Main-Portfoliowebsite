@@ -31,6 +31,16 @@ const projects = [
     demoUrl: "https://react-js-modern-ui-ux-site.vercel.app/",
     githubUrl: "https://github.com/sai02-creator/ReactJs-Modern-UI-UX-Site?tab=readme-ov-file",
   },
+  {
+    id: 4,
+    title:"calvero-scheduling-app",
+    description:
+      "Think of Calvero as your personal scheduling assistant — but one that never sleeps and never double-books you. It handles availability, bookings, and calendar sync automatically so you can focus on the meeting, not the logistics.",
+    image: "/projects/project4.png",
+    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Clerk", "Sanity"],
+    demoUrl: "https://calvero-scheduling-app.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/Calvero-Scheduling-App",
+  },
 ];
 
 export const ProjectsSection = () => {
