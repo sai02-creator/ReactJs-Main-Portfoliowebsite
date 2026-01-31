@@ -8,7 +8,8 @@ const projects = [
       "A full-stack real-time chat messaging application built with React, TypeScript, Zustand, and Supabase.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "https://chat-messaging-otvvtctyn-sai-chaitanya-gaddams-projects.vercel.app/",
+    demoUrl:
+      "https://chat-messaging-otvvtctyn-sai-chaitanya-gaddams-projects.vercel.app/",
     githubUrl: "https://github.com/sai02-creator/Chat-Messaging-App",
   },
   {
@@ -29,11 +30,12 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "JavaScript", "TailwindCss", "HTML"],
     demoUrl: "https://react-js-modern-ui-ux-site.vercel.app/",
-    githubUrl: "https://github.com/sai02-creator/ReactJs-Modern-UI-UX-Site?tab=readme-ov-file",
+    githubUrl:
+      "https://github.com/sai02-creator/ReactJs-Modern-UI-UX-Site?tab=readme-ov-file",
   },
   {
     id: 4,
-    title:"calvero-scheduling-app",
+    title: "calvero-scheduling-app",
     description:
       "Think of Calvero as your personal scheduling assistant — but one that never sleeps and never double-books you. It handles availability, bookings, and calendar sync automatically so you can focus on the meeting, not the logistics.",
     image: "/projects/project4.png",
@@ -44,13 +46,13 @@ const projects = [
   {
     id: 5,
     title: "Fitpass - Saas Fitness Platform",
-    description:"FitPass is a fitness class booking platform where users can discover nearby sessions, view venues on a map, subscribe to a tier (Basic / Performance / Champion), and book classes instantly.",
+    description:
+      "FitPass is a fitness class booking platform where users can discover nearby sessions, view venues on a map, subscribe to a tier (Basic / Performance / Champion), and book classes instantly.",
     image: "/projects/project5.png",
     tags: ["Nextjs", "TypeScript", "TailwindCSS", "Prisma", "Stripe"],
     demoUrl: "https://fitpass-saas-nextjs.vercel.app/",
     githubUrl: "https://github.com/sai02-creator/FitPass-SaaS-NextJs",
-  }
-
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -62,13 +64,14 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. Each project was carefully
+          crafted with attention to detail, performance, and user experience.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, key) => (
+          {projects.map((project) => (
             <div
-              key={key}
+              key={project.id}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               {/* Image */}
@@ -80,12 +83,13 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              {/* Tags and content */}
-              <div className="p-6">
+              {/* Content */}
+              {/* Make this relative + add bottom padding for the pinned links */}
+              <div className="p-6 pb-14 relative">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, i) => (
+                  {project.tags.map((tag) => (
                     <span
-                      key={i}
+                      key={tag}
                       className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
                     >
                       {tag}
@@ -94,27 +98,34 @@ export const ProjectsSection = () => {
                 </div>
 
                 <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
+
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
 
-                <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20}/>
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20}/>
-                    </a>
-                  </div>
+                {/* Pinned bottom-left links */}
+                <div className="absolute bottom-4 left-6 flex items-center space-x-3">
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    aria-label={`${project.title} live demo`}
+                    title="Live Demo"
+                  >
+                    <ExternalLink size={20} />
+                  </a>
+
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    aria-label={`${project.title} GitHub repo`}
+                    title="GitHub"
+                  >
+                    <Github size={20} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -122,13 +133,15 @@ export const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a className="cosmic-button w-fit flex items-center mx-auto gap-2" target="_blank" href="https://github.com/sai02-creator">
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/sai02-creator"
+          >
             Check My Github <ArrowRight size={16} />
           </a>
-
         </div>
-
-
       </div>
     </section>
   );
