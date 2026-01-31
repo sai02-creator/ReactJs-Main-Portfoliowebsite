@@ -41,6 +41,16 @@ const projects = [
     demoUrl: "https://calvero-scheduling-saas.vercel.app/",
     githubUrl: "https://github.com/sai02-creator/calvero-scheduling-saas",
   },
+  {
+    id: 5,
+    title: "Fitpass - Saas Fitness Platform",
+    description:"FitPass is a fitness class booking platform where users can discover nearby sessions, view venues on a map, subscribe to a tier (Basic / Performance / Champion), and book classes instantly.",
+    image: "/projects/project5.png",
+    tags: ["Nextjs", "TypeScript", "TailwindCSS", "Prisma", "Stripe"],
+    demoUrl: "https://fitpass-saas-nextjs.vercel.app/",
+    githubUrl: "https://github.com/sai02-creator/FitPass-SaaS-NextJs",
+  }
+
 ];
 
 export const ProjectsSection = () => {
